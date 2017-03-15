@@ -1,0 +1,6 @@
+<jdbc-connection-pool driver-classname="com.mysql.jdbc.Driver" name="casos_acad_pool" res-type="java.sql.Driver">
+    <property name="password" value="admin"></property>
+    <property name="user" value="root"></property>
+    <property name="URL" value="jdbc:mysql://db:3306/CasosAcad"></property>
+</jdbc-connection-pool>
+<jdbc-resource pool-name="mariadb_docker_pool" jndi-name="jdbc/casos_acad"></jdbc-resource>
